@@ -1,0 +1,25 @@
+body{
+  background-color: #191d42;
+  color: white;
+}
+p {
+  text-align: center;
+}
+
+.downloadbutton {
+  position: relative;
+}
+
+button {
+  color: white;
+  border-color:#00610e;
+  border-style: double;
+  background-color: #00a318;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2em;
+}
+button:hover{background-color: #00a318;}
+
+button:focus{background-color:#00610e;}
